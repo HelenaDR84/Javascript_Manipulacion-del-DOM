@@ -1,0 +1,14 @@
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+.download_button {
+    background-color: rgb(176, 131, 218);
+    color: white;
+    width: 120px;
+    height: 30px;
+    font-size: 70%;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}

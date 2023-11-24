@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Manipulacion del DOM</title>
+</head>
+<body>
+    <script src="./index.js"></script>
+    <header>
+        <h1>Manipulación del DOM</h1>
+        <button onclick="myFunction()" id="download_button" class="download_button">DOWNLOAD</button>
+<p id="demo"></p>
+    </header>
+    <main>
+      <h2>FORMULARIO</h2>
+      <form>
+        <ul>
+          <li>
+            <label for="name">Nombre y Apellidos:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <li>
+            <label for="mail">Correo electrónico:</label>
+            <input type="email" id="mail" name="user_mail" />
+          </li>
+          <li>
+            <label for="msg">Mensaje:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+        </ul>
+      </form>
+    </main>
+    <!--  <script>
+          function myFunction() {
+          document.getElementById("download_button").innerHTML = "Descargando..."; 
+          }                                     //Crear un botón en HTML y usar JavaScript para mostrar un mensaje cuando se hace clic.
+          </script> -->
+        <script>
+            function myFunction() {
+              document.getElementById("demo").innerHTML = "Descargando...";
+            }                                 //Cambiar el contenido de un elemento HTML mediante JavaScript.
+        </script>
+</body>
+</html>
